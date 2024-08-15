@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drum Kit</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+<body>
+    <header class="navbar">
+        <nav>
+            <h1>Sound</h1>
+        </nav>
+    </header>
+    <div class="container">
+        <div class="key" data-key="65">
+            <kbd>A</kbd>
+        </div>
+        <div class="key" data-key="83">
+            <kbd>S</kbd>
+        </div>
+        <div class="key" data-key="68">
+            <kbd>D</kbd>
+        </div>
+        <div class="key" data-key="70">
+            <kbd>F</kbd>
+        </div>
+        <div class="key" data-key="71">
+            <kbd>G</kbd>
+        </div>
+        <div class="key" data-key="72">
+            <kbd>H</kbd>
+        </div>
+        <div class="key" data-key="74">
+            <kbd>J</kbd>
+        </div>
+    </div>
+
+    <audio data-key="65" src="./sound/crash (1).mp3"></audio>
+    <audio data-key="83" src="./sound/kick-bass.mp3"></audio>
+    <audio data-key="68" src="./sound/snare.mp3"></audio>
+    <audio data-key="70" src="./sound/tom-1.mp3"></audio>
+    <audio data-key="71" src="./sound/tom-2.mp3"></audio>
+    <audio data-key="72" src="./sound/tom-3.mp3"></audio>
+    <audio data-key="74" src="./sound/tom-4.mp3"></audio>
+    <footer class="footer">
+        <a href="" class="fab fa-facebook-f" style="color: white;"></a>
+        <a href="" class="fab fa-twitter" style="color: white;"></a>
+        <a href="" class="fab fa-instagram" style="color: white;"></a>
+        <a href="" class="fab fa-linkedin" style="color: white;"></a>
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>
